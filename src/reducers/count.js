@@ -12,6 +12,6 @@ export const count = (state = initialState, action) => {
       return { count: state.count-- };
 
     default:
-      break;
+      return state
   }
 };
